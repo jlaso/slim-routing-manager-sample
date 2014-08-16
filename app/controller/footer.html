@@ -1,0 +1,65 @@
+        <div class="row placeholders">
+
+        </div>
+
+
+        <div class="collapse" id="common-code">
+
+            <h3>The frontend controller:</h3>
+            <pre>
+require_once __DIR__ . "/vendor/autoload.php";
+
+use JLaso\SlimRoutingManager\RoutingCacheManager;
+
+$app = new \Slim\Slim();
+
+new RoutingCacheManager(
+    array(
+        'cache'      => __DIR__ . '/cache/routing',
+        'controller' => __DIR__ . '/app/controller',
+    )
+);
+
+$app->run();
+
+            </pre>
+
+            <br/><br/>
+        </div>
+
+
+    </div>
+    <!-- end of content -->
+
+    </div>
+</div>
+
+
+<span id="forkongithub"><a href="https://github.com/jlaso/slim-routing-manager">Fork me on GitHub</a></span>
+
+    <div class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#footer-bar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">jlaso</a>
+            </div>
+            <div id="footer-bar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a target="_blank" href="http://www.ahiroo.com">Hosted by ahiroo.com</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script src="/%ROOT%/js/jquery-1.9.1.min.js"></script>
+<script src="/%ROOT%/bootstrap/js/bootstrap.min.js"></script>
+
+
+</html>

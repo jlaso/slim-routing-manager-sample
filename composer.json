@@ -1,0 +1,18 @@
+{
+    "authors": [
+        {
+            "name": "Patrick Joseluis Laso",
+            "email": "wld1373@gmail.com",
+            "homepage": "http://www.patricklaso.com",
+            "role": "Developer"
+        }
+    ],
+    "name": "jlaso/sample-slim-routing-manager",
+    "description": "Sample to illustrate JlasoSlimRoutingManager",
+    "require": {
+        "php": ">=5.3.0",
+        "slim/slim": "2.2.0",
+        "jlaso/slim-routing-manager": "*"
+    },
+    "minimum-stability": "dev"
+}
